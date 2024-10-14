@@ -72,6 +72,7 @@ const displayPersonInfo = (person) =>{
     console.log(person);
     personInfo.innerHTML = `
     <h2 class= "text-2xl font-bold mb-2">${person.name}</h2>
+    <p>City: ${person?.address?.city || "N/A"}</p>
     `
      
     
